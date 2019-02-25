@@ -1,6 +1,6 @@
-$primaryYellow: #FEDA6A!important;
+$primaryYellow: #f9e887!important;
 $primaryBlack: #1D1E22!important;
-$secondaryBlack: #393F4D!important;
+$secondaryBlack: #f9e887!important;
 $primaryLight: #D4D4DC !important;
 $white: #ffffff !important;
 $logoFont: Bodoni MT!important;
@@ -80,7 +80,7 @@ nav{
 }
 
 .scrolled {
-  background-color: $primaryBlack;
+  background-color: #604026!important;
   transition: background-color 200ms linear !important;
 }
 .navbar-brand{
@@ -90,7 +90,7 @@ nav{
   margin-bottom: 0px!important;
   #logo{
     width: auto;
-    height: 15vh;
+    height: 8vh;
   }
 }
 
@@ -155,24 +155,26 @@ t{
 
 #gallerytxt{
     color: $primaryBlack;
+    font-family: $navitemsFont;
 
 
 }
 
 #abouttxt{
-  color: $primaryYellow;
+  color: #604026;
+  font-family: $navitemsFont;
 }
 
 #aboutDes{
       background: rgb(255, 255, 255) transparent!important;
   padding-top: 10px!important;
   // color: $primaryBlack;
-  color: $white;
+  color: #604026!important;
   font-size: 1.2rem!important;
-  font-family: 'Poppins', sans-serif;
+  font-family: $navitemsFont;
   // text-align: justify;
   b{
-    color: $primaryYellow;
+    color: #604026;
     font-size: 1.4rem!important;
   }
 }
@@ -220,7 +222,7 @@ t{
 
 
 #footerDiv{
-  background-color: $primaryBlack;
+  background-color: #604026!important;
   // margin: 0!important;
   // padding-left: 0px!important;
   // padding-right: 0px!important;

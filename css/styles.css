@@ -44,7 +44,7 @@ nav {
   padding-bottom: 10px !important; }
 
 .scrolled {
-  background-color: #1D1E22 !important;
+  background-color: #604026 !important;
   transition: background-color 200ms linear !important; }
 
 .navbar-brand {
@@ -54,7 +54,7 @@ nav {
   margin-bottom: 0px !important; }
   .navbar-brand #logo {
     width: auto;
-    height: 15vh; }
+    height: 8vh; }
 
 .nav-item {
   padding-left: 0.5rem !important;
@@ -65,10 +65,10 @@ nav {
     font-size: 1.2rem; }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #FEDA6A !important; }
+  color: #f9e887 !important; }
 
 .navbar-nav li a.active {
-  color: #FEDA6A !important; }
+  color: #f9e887 !important; }
 
 .navbar-toggler {
   border: none; }
@@ -83,7 +83,7 @@ nav {
     width: auto !important; }
 
 #About {
-  background-color: #393F4D !important; }
+  background-color: #f9e887 !important; }
 
 .titleUnder {
   padding-top: 5px !important;
@@ -94,19 +94,21 @@ t {
   font-size: 2.8rem !important; }
 
 #gallerytxt {
-  color: #1D1E22 !important; }
+  color: #1D1E22 !important;
+  font-family: "Cinzel", serif !important; }
 
 #abouttxt {
-  color: #FEDA6A !important; }
+  color: #604026;
+  font-family: "Cinzel", serif !important; }
 
 #aboutDes {
   background: white transparent !important;
   padding-top: 10px !important;
-  color: #ffffff !important;
+  color: #604026 !important;
   font-size: 1.2rem !important;
-  font-family: 'Poppins', sans-serif; }
+  font-family: "Cinzel", serif !important; }
   #aboutDes b {
-    color: #FEDA6A !important;
+    color: #604026;
     font-size: 1.4rem !important; }
 
 .carousel-indicators li {
@@ -118,7 +120,7 @@ t {
   cursor: pointer;
   border: none;
   border-radius: 50%;
-  background-color: #FEDA6A !important; }
+  background-color: #f9e887 !important; }
 
 .carousel-indicators .active {
   width: 15px;
@@ -145,7 +147,7 @@ t {
   color: #1D1E22 !important; }
 
 #footerDiv {
-  background-color: #1D1E22 !important; }
+  background-color: #604026 !important; }
 
 .footer-copyright {
   color: #ffffff !important; }
