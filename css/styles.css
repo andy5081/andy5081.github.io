@@ -74,7 +74,7 @@ nav {
   border: none; }
 
 #Gallery {
-  background-color: #FEDA6A !important; }
+  background-color: #ffffff !important; }
 
 #carouselDiv {
   background: white transparent !important; }
@@ -108,6 +108,41 @@ t {
   #aboutDes b {
     color: #FEDA6A !important;
     font-size: 1.4rem !important; }
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #FEDA6A !important; }
+
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin: 7px;
+  background-color: #1D1E22 !important; }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none; }
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 80px;
+  color: #1D1E22 !important; }
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 80px;
+  color: #1D1E22 !important; }
 
 #footerDiv {
   background-color: #1D1E22 !important; }

@@ -125,7 +125,7 @@ nav{
 
 
 #Gallery{
-  background-color: $primaryYellow;
+  background-color: $white;
 }
 
 #carouselDiv{
@@ -176,6 +176,48 @@ t{
     font-size: 1.4rem!important;
   }
 }
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: $primaryYellow;
+    // box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    background-color: $primaryBlack;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 80px;
+  color: $primaryBlack;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 80px;
+  color: $primaryBlack;
+}
+
 
 #footerDiv{
   background-color: $primaryBlack;
