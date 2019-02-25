@@ -130,6 +130,7 @@ nav{
 
 #carouselDiv{
     // background-color: $secondaryBlack;
+      background: rgb(255, 255, 255) transparent!important;
     .carousel-item{
       height: 10%!important;
       width:auto!important;
@@ -161,6 +162,7 @@ t{
 }
 
 #aboutDes{
+      background: rgb(255, 255, 255) transparent!important;
   padding-top: 10px!important;
   // color: $primaryBlack;
   color: $white;

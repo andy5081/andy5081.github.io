@@ -81,9 +81,11 @@ nav {
 #Gallery {
   background-color: #FEDA6A !important; }
 
-#carouselDiv .carousel-item {
-  height: 10% !important;
-  width: auto !important; }
+#carouselDiv {
+  background: white transparent !important; }
+  #carouselDiv .carousel-item {
+    height: 10% !important;
+    width: auto !important; }
 
 #About {
   background-color: #393F4D !important; }
@@ -99,6 +101,7 @@ t {
   color: #FEDA6A !important; }
 
 #aboutDes {
+  background: white transparent !important;
   padding-top: 10px !important;
   color: #ffffff !important;
   font-size: 1.2rem !important;
