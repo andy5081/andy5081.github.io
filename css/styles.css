@@ -81,17 +81,12 @@ nav {
 #Gallery {
   background-color: #FEDA6A !important; }
 
-#carouselDiv {
-  background-color: #393F4D !important; }
-  #carouselDiv .carousel-item {
-    height: 10% !important;
-    width: auto !important; }
+#carouselDiv .carousel-item {
+  height: 10% !important;
+  width: auto !important; }
 
 #About {
   background-color: #393F4D !important; }
-
-#aboutMap {
-  background-color: #ffffff !important; }
 
 t {
   font-family: 'Roboto', sans-serif !important;
@@ -105,7 +100,7 @@ t {
 
 #aboutDes {
   padding-top: 10px !important;
-  color: #1D1E22 !important;
+  color: #ffffff !important;
   font-size: 1.2rem !important;
   font-family: 'Poppins', sans-serif; }
   #aboutDes b {
