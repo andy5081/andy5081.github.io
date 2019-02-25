@@ -88,7 +88,7 @@
 
 
   $(document).scroll(function () {
-    var $nav = $("#navDiv");
+    var $nav = $("#mainNav");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 

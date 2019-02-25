@@ -4,7 +4,7 @@ $secondaryBlack: #393F4D!important;
 $primaryLight: #D4D4DC !important;
 $white: #ffffff !important;
 $logoFont: Bodoni MT!important;
-$navitemsFont: 'Lato', sans-serif!important;
+$navitemsFont: 'Cinzel', serif!important;
 $welcomeFont: 'Petit Formal Script', cursive !important;
 
 //////////////Personal Preferences//////////////
@@ -56,13 +56,13 @@ body,html {
 
 #mainTextDiv{
     // background-color: rgba(29, 30, 34, .5);
-    padding-left: 10px!important;
-    padding-right: 10px!important;
-    padding-top: 50px!important;
-    padding-bottom: 50px!important;
+    // padding-left: 10px!important;
+    // padding-right: 10px!important;
+    // padding-top: 50px!important;
+    // padding-bottom: 50px!important;
   #mainText{
     font-family:$welcomeFont;
-    color: white;
+    color: $white;
     font-size: 4.5rem!important;
     font-weight:lighter!important;
   }
@@ -90,7 +90,7 @@ nav{
   margin-bottom: 0px!important;
   #logo{
     width: auto;
-    height: 9vh;
+    height: 15vh;
   }
 }
 
@@ -102,7 +102,7 @@ nav{
     font-family: $navitemsFont;
     // font-weight: lighter;
     color:$white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -142,8 +142,10 @@ nav{
   background-color: $secondaryBlack;
 }
 
-#aboutMap{
-    // background-color: $white;
+
+.titleUnder{
+  padding-top: 5px!important;
+  padding-bottom: 10px!important;
 }
 
 t{

@@ -33,16 +33,11 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%); }
 
-#mainTextDiv {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-  padding-top: 50px !important;
-  padding-bottom: 50px !important; }
-  #mainTextDiv #mainText {
-    font-family: "Petit Formal Script", cursive !important;
-    color: white;
-    font-size: 4.5rem !important;
-    font-weight: lighter !important; }
+#mainTextDiv #mainText {
+  font-family: "Petit Formal Script", cursive !important;
+  color: #ffffff !important;
+  font-size: 4.5rem !important;
+  font-weight: lighter !important; }
 
 nav {
   padding-top: 10px !important;
@@ -59,15 +54,15 @@ nav {
   margin-bottom: 0px !important; }
   .navbar-brand #logo {
     width: auto;
-    height: 9vh; }
+    height: 15vh; }
 
 .nav-item {
   padding-left: 0.5rem !important;
   padding-right: 0.5rem !important; }
   .nav-item .nav-link {
-    font-family: "Lato", sans-serif !important;
+    font-family: "Cinzel", serif !important;
     color: #ffffff !important;
-    font-size: 1.1rem; }
+    font-size: 1.2rem; }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #FEDA6A !important; }
@@ -89,6 +84,10 @@ nav {
 
 #About {
   background-color: #393F4D !important; }
+
+.titleUnder {
+  padding-top: 5px !important;
+  padding-bottom: 10px !important; }
 
 t {
   font-family: 'Roboto', sans-serif !important;

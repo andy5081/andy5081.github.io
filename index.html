@@ -10,7 +10,7 @@
     <!-- fontAwesomeIcons -->
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Lato|Petit+Formal+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Poppins|Roboto|Lato|Petit+Formal+Script" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/styles.css">
@@ -19,136 +19,142 @@
 
   <body>
 
-    <div class="container-fluid " id="mainDiv">
 
-      <div class="row" id="homeScreen">
+      <div class="container-fluid" id="homeScreen">
 
-        <div class="fixed-top" id ="navDiv" >
-          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent container" id="mainNav">
-            <a class="navbar-brand js-scroll-trigger col-md-6 col-12 " href="#page-top">
-              <img class="img-responsive" id="logo" src="./assets/logo1.png">
-            </a>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent container-fluid fixed-top" id="mainNav">
+            <div class="container" id="navContainer">
+              <a class="navbar-brand js-scroll-trigger mx-auto" href="#page-top">
+                <div class="col-12 md-6 ">
+                <img class="img-responsive" id="logo" src="./assets/logo.png">
+                </div>
+              </a>
 
-            <button class="navbar-toggler col-md-6 col-12" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-               <i class="fa fa-bars fa-2x" style="color:white"></i>
-            </button>
+              <button class="navbar-toggler col-md-6 col-12" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                 <i class="fa fa-bars fa-2x" style="color:white"></i>
+              </button>
 
-            <div class="collapse navbar-collapse " id="navbarResponsive">
-              <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item ">
-                  <a class="nav-link js-scroll-trigger" href="#homeScreen">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="./assets/KBMenu.pdf">MENU</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#Gallery">GALLERY</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#About">ABOUT</a>
-                </li>
-              </ul>
+              <div class="collapse navbar-collapse " id="navbarResponsive">
+                <ul class="navbar-nav ml-auto text-center">
+                  <li class="nav-item ">
+                    <a class="nav-link js-scroll-trigger" href="#homeScreen">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="./assets/KBMenu.pdf">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Gallery">GALLERY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#About">ABOUT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-
           </nav>
 
-        </div>
 
-        <div class="col-12">
-          <div class="text-center centered" id="mainTextDiv">
-            <h1 id="mainText"></h1>
+        <div class="centered container" id="mainTextDiv">
+          <div class="row text-center">
+            <div class="col-12">
+              <h1 id="mainText"></h1>
+          </div>
           </div>
         </div>
-
       </div>
 
 
 
-
-      <div class="row splits" id="Gallery">
-        <div class="col-12">
+      <div class="container-fluid splits" id="Gallery">
+        <div class="container titleUnder">
           <div class= "row ">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center ">
                 <t id="gallerytxt">GALLERY</t>
             </div>
           </div>
+        </div>
 
-          <div class= "row container mx-auto" id="carouselDiv" >
-            <div class="col-12 ">
-              <div id="carouselIndicators" class="carousel slide container " data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselIndicators" data-slide-to="1" ></li>
-                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselIndicators" data-slide-to="3"></li>
-                  <li data-target="#carouselIndicators" data-slide-to="4"></li>
-                  <li data-target="#carouselIndicators" data-slide-to="5"></li>
-                  <li data-target="#carouselIndicators" data-slide-to="6"></li>
-                </ol>
+        <div class="container mx-auto text-center" id="carouselDiv">
+            <div id="carouselIndicators" class="carousel slide container-fluid fullWidth mx-auto text-center" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1" ></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselIndicators" data-slide-to="6"></li>
+              </ol>
 
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="a-block w-100 " src="./assets/choccake.jpg" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/choccookie2.jpg" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/chocolate.jpg" alt="Third slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/fingercake.jpg" alt="Third slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/greentea.jpg" alt="Third slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/raisin2.jpg" alt="Third slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/strawberry.jpg" alt="Third slide">
-                  </div>
+              <div class="carousel-inner mx-auto text-center">
+                <div class="carousel-item active">
+                  <img class="img-fluid img-responsive" src="./assets/choccake.jpg" alt="First slide">
                 </div>
-
+                <div class="carousel-item">
+                  <img class="img-fluid img-responsive" src="./assets/choccookie2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-responsive" src="./assets/chocolate.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-responsive" src="./assets/fingercake.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-responsive" src="./assets/greentea.jpg" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-responsive" src="./assets/raisin2.jpg" alt="Sixtj slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid img-responsive" src="./assets/strawberry.jpg" alt="Seventh slide">
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 
 
-      <div class="row splits " id="About">
-        <div class="col-12 ">
+
+      <div class="container-fluid splits" id="About">
+        <div class= "container titleUnder">
           <div class= "row ">
             <div class="col-12 text-center">
                 <t id="abouttxt">ABOUT</t>
             </div>
           </div>
+        </div>
 
-          <div class= "row splits container mx-auto" id="aboutMap" >
-            <div class="col-md-6 col-12 text-center ">
+        <div class= "container mx-auto my-auto">
+          <div class="row my-auto" >
+            <div class="col-md-6 col-12 text-center my-auto">
               <img class="img-responsive img-fluid container" id="imgs" src="./assets/kingsBakery.jpg">
             </div>
-            <div class="col-md-6 col-12">
-              <p class= "container" id="aboutDes">King’s Bakery was established in 2015 with a vision to serve high quality baked goods at an extremely affordable price. What sets King’s Bakery apart from other bakeries is our ability to produce <b>FRESH</b> baked goods every day. Every product is made fresh every morning by our renowned pastry chefs before we put it on our shelves for sale. We believe customers should be able to enjoy high
+            <div class="col-md-6 col-12 text-justify my-auto">
+              <p id="aboutDes">King’s Bakery was established in 2015 with a vision to serve high quality baked goods at an extremely affordable price. What sets King’s Bakery apart from other bakeries is our ability to produce <b>FRESH</b> baked goods every day. Every product is made fresh every morning by our renowned pastry chefs before we put it on our shelves for sale. We believe customers should be able to enjoy high
                 quality pastries at reasonable prices.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid fullWidth">
+        <div class="container-fluid fullWidth">
+          <div class="row fullWidth">
+            <div class="col-12 text-center fullWidth">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.1724820380027!2d-73.99887304876997!3d40.604017979242435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2450f315e380d%3A0xbd2239873a55940!2sKings+Bakery!5e0!3m2!1sen!2sus!4v1551061831175" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
 
         </div>
-      </div>
 
-      <div class="row ">
-        <div class="col-12 text-center container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041686.9400594966!2d-78.5734106296339!3d41.8843097901147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2450f315e380d%3A0xbd2239873a55940!2sKings+Bakery!5e0!3m2!1sen!2sus!4v1550474793337&zoom=1" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
 
       </div>
 
-      <div class ="row" id="footerDiv">
-        <div class="col-12">
-          <footer class="page-footer font-small pt-5">
+          <footer class="page-footer font-small pt-5" id="footerDiv">
                     <div class="list-unstyled list-inline text-center">
                       <a class="fa fa-phone fa-2x mx-2" href="tel:+7189753388" style="color:#FEDA6A";></a>
                       <a class="fa fa-envelope fa-2x mx-2" href="mailto:kingscorp@yahoo.com" style="color:#FEDA6A";></a>
@@ -159,15 +165,7 @@
                     <div class="footer-copyright text-center py-4">© 2019 KingsCorp & JL</div>
 
           </footer>
-        </div>
 
-      </div>
-
-
-
-
-
-    </div>
 
 
     <script src="/js/jquery.min.js"></script>
