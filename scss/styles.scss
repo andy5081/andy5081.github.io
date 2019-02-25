@@ -1,0 +1,183 @@
+$primaryYellow: #FEDA6A!important;
+$primaryBlack: #1D1E22!important;
+$secondaryBlack: #393F4D!important;
+$primaryLight: #D4D4DC !important;
+$white: #ffffff !important;
+$logoFont: Bodoni MT!important;
+$navitemsFont: 'Lato', sans-serif!important;
+$welcomeFont: 'Petit Formal Script', cursive !important;
+
+//////////////Personal Preferences//////////////
+.borderThick{
+  border-style: solid;
+  border-width: medium;
+  border-color: blue;
+}
+
+.fullWidth{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.splits{
+  padding-top: 6vh!important;
+  padding-bottom: 12vh!important;
+}
+
+body,html {
+  height: 100%!important;
+  margin: 0 !important;
+  #mainDiv{
+    height: 100%!important;
+    margin: 0 !important;
+  }
+}
+//////////////////////////////////
+
+
+//////////////HomeScreen//////////////
+#homeScreen{
+  background-image: url('../assets/storeBlurry.jpg')!important;
+  height: 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainTextDiv{
+    // background-color: rgba(29, 30, 34, .5);
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    padding-top: 50px!important;
+    padding-bottom: 50px!important;
+  #mainText{
+    font-family:$welcomeFont;
+    color: white;
+    font-size: 4.5rem!important;
+    font-weight:lighter!important;
+  }
+}
+//////////////////////////////////
+
+
+//////////////NavBar//////////////
+
+nav{
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  // margin-top: 0px!important;
+  // margin-bottom: 0px!important;
+}
+
+.scrolled {
+  background-color: $primaryBlack;
+  transition: background-color 200ms linear;
+}
+.navbar-brand{
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+  #logo{
+    width: auto;
+    height: 9vh;
+  }
+}
+
+
+.nav-item{
+  padding-left: .5rem!important;
+  padding-right: .5rem!important;
+  .nav-link{
+    font-family: $navitemsFont;
+    // font-weight: lighter;
+    color:$white;
+    font-size: 1.1rem;
+  }
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: $primaryYellow;
+}
+
+.navbar-nav li a.active {
+    color: $primaryYellow;
+}
+
+.navbar-toggler {
+    border: none;
+
+
+}
+
+//////////////////////////////////
+
+
+
+#Gallery{
+  background-color: $primaryYellow;
+}
+
+#carouselDiv{
+    background-color: $secondaryBlack;
+    .carousel-item{
+      height: 10%!important;
+      width:auto!important;
+    }
+}
+
+
+#About{
+  background-color: $secondaryBlack;
+}
+
+#aboutMap{
+    background-color: $white;
+}
+
+t{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 2.8rem!important;
+}
+
+#gallerytxt{
+    color: $primaryBlack;
+
+}
+
+#abouttxt{
+  color: $primaryYellow;
+}
+
+#aboutDes{
+  padding-top: 10px!important;
+  color: $primaryBlack;
+  font-size: 1.2rem!important;
+  font-family: 'Poppins', sans-serif;
+  // text-align: justify;
+  b{
+    color: $primaryYellow;
+    font-size: 1.4rem!important;
+  }
+}
+
+#footerDiv{
+  background-color: $primaryBlack;
+  // margin: 0!important;
+  // padding-left: 0px!important;
+  // padding-right: 0px!important;
+}
+
+.footer-copyright{
+  color: $white
+}

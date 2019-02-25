@@ -1,0 +1,119 @@
+.borderThick {
+  border-style: solid;
+  border-width: medium;
+  border-color: blue; }
+
+.fullWidth {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.splits {
+  padding-top: 6vh !important;
+  padding-bottom: 12vh !important; }
+
+body, html {
+  height: 100% !important;
+  margin: 0 !important; }
+  body #mainDiv, html #mainDiv {
+    height: 100% !important;
+    margin: 0 !important; }
+
+#homeScreen {
+  background-image: url("../assets/storeBlurry.jpg") !important;
+  height: 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#mainTextDiv {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important; }
+  #mainTextDiv #mainText {
+    font-family: "Petit Formal Script", cursive !important;
+    color: white;
+    font-size: 4.5rem !important;
+    font-weight: lighter !important; }
+
+nav {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important; }
+
+.scrolled {
+  background-color: #1D1E22 !important;
+  transition: background-color 200ms linear; }
+
+.navbar-brand {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; }
+  .navbar-brand #logo {
+    width: auto;
+    height: 9vh; }
+
+.nav-item {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important; }
+  .nav-item .nav-link {
+    font-family: "Lato", sans-serif !important;
+    color: #ffffff !important;
+    font-size: 1.1rem; }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #FEDA6A !important; }
+
+.navbar-nav li a.active {
+  color: #FEDA6A !important; }
+
+.navbar-toggler {
+  border: none; }
+
+#Gallery {
+  background-color: #FEDA6A !important; }
+
+#carouselDiv {
+  background-color: #393F4D !important; }
+  #carouselDiv .carousel-item {
+    height: 10% !important;
+    width: auto !important; }
+
+#About {
+  background-color: #393F4D !important; }
+
+#aboutMap {
+  background-color: #ffffff !important; }
+
+t {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 2.8rem !important; }
+
+#gallerytxt {
+  color: #1D1E22 !important; }
+
+#abouttxt {
+  color: #FEDA6A !important; }
+
+#aboutDes {
+  padding-top: 10px !important;
+  color: #1D1E22 !important;
+  font-size: 1.2rem !important;
+  font-family: 'Poppins', sans-serif; }
+  #aboutDes b {
+    color: #FEDA6A !important;
+    font-size: 1.4rem !important; }
+
+#footerDiv {
+  background-color: #1D1E22 !important; }
+
+.footer-copyright {
+  color: #ffffff !important; }
